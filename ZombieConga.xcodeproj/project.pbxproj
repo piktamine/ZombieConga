@@ -16,6 +16,7 @@
 		94993CE926B38E75002E3BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94993CE826B38E75002E3BCA /* Assets.xcassets */; };
 		949D871626E52F03006673BF /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 949D871426E52F03006673BF /* sprites.atlas */; };
 		949D871726E52F03006673BF /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 949D871526E52F03006673BF /* Images */; };
+		949D871A26E531BB006673BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949D871926E531BB006673BF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		94993CEA26B38E75002E3BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949D871426E52F03006673BF /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		949D871526E52F03006673BF /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		949D871926E531BB006673BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				949D871526E52F03006673BF /* Images */,
 				949D871426E52F03006673BF /* sprites.atlas */,
 				94993CEA26B38E75002E3BCA /* Info.plist */,
+				949D871926E531BB006673BF /* LaunchScreen.storyboard */,
 			);
 			path = ZombieConga;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				94993CE726B38E70002E3BCA /* Main.storyboard in Resources */,
 				94993CDE26B38E70002E3BCA /* GameScene.sks in Resources */,
 				94993CE926B38E75002E3BCA /* Assets.xcassets in Resources */,
+				949D871A26E531BB006673BF /* LaunchScreen.storyboard in Resources */,
 				949D871726E52F03006673BF /* Images in Resources */,
 				94993CE026B38E70002E3BCA /* Actions.sks in Resources */,
 			);
