@@ -17,7 +17,8 @@ class GameScene: SKScene {
         //Este metodo se carga cuando se crea la pantalla
         //alprincio
         
-        backgroundColor = SKColor.gray
+        backgroundColor = SKColor.white
+        //backgroundColor = SKColor.white
         
         /*
         // Get label node from scene and store it for use later

@@ -24,7 +24,7 @@ class GameViewController: UIViewController {
                 view.presentScene(scene)
             }
             
-            view.ignoresSiblingOrder = true
+            view.ignoresSiblingOrder = true //para las capas de visualizacion del juego
             
             view.showsFPS = true //muesta los fps en la parte inferior
             view.showsNodeCount = true
