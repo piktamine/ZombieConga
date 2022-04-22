@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9433FB34281369DC0059A6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9433FB36281369DC0059A6C6 /* LaunchScreen.storyboard */; };
 		94993CDC26B38E70002E3BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94993CDB26B38E70002E3BCA /* AppDelegate.swift */; };
 		94993CDE26B38E70002E3BCA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94993CDD26B38E70002E3BCA /* GameScene.sks */; };
 		94993CE026B38E70002E3BCA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94993CDF26B38E70002E3BCA /* Actions.sks */; };
@@ -14,12 +15,10 @@
 		94993CE426B38E70002E3BCA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94993CE326B38E70002E3BCA /* GameViewController.swift */; };
 		94993CE726B38E70002E3BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94993CE526B38E70002E3BCA /* Main.storyboard */; };
 		94993CE926B38E75002E3BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94993CE826B38E75002E3BCA /* Assets.xcassets */; };
-		949D871626E52F03006673BF /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 949D871426E52F03006673BF /* sprites.atlas */; };
-		949D871726E52F03006673BF /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 949D871526E52F03006673BF /* Images */; };
-		949D871A26E531BB006673BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949D871926E531BB006673BF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9433FB35281369DC0059A6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94993CD826B38E70002E3BCA /* ZombieConga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieConga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94993CDB26B38E70002E3BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94993CDD26B38E70002E3BCA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -29,9 +28,6 @@
 		94993CE626B38E70002E3BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94993CE826B38E75002E3BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94993CEA26B38E75002E3BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		949D871426E52F03006673BF /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
-		949D871526E52F03006673BF /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
-		949D871926E531BB006673BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +67,8 @@
 				94993CE326B38E70002E3BCA /* GameViewController.swift */,
 				94993CE526B38E70002E3BCA /* Main.storyboard */,
 				94993CE826B38E75002E3BCA /* Assets.xcassets */,
-				949D871526E52F03006673BF /* Images */,
-				949D871426E52F03006673BF /* sprites.atlas */,
 				94993CEA26B38E75002E3BCA /* Info.plist */,
-				949D871926E531BB006673BF /* LaunchScreen.storyboard */,
+				9433FB36281369DC0059A6C6 /* LaunchScreen.storyboard */,
 			);
 			path = ZombieConga;
 			sourceTree = "<group>";
@@ -106,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					94993CD726B38E70002E3BCA = {
 						CreatedOnToolsVersion = 12.2;
@@ -136,12 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949D871626E52F03006673BF /* sprites.atlas in Resources */,
 				94993CE726B38E70002E3BCA /* Main.storyboard in Resources */,
 				94993CDE26B38E70002E3BCA /* GameScene.sks in Resources */,
 				94993CE926B38E75002E3BCA /* Assets.xcassets in Resources */,
-				949D871A26E531BB006673BF /* LaunchScreen.storyboard in Resources */,
-				949D871726E52F03006673BF /* Images in Resources */,
+				9433FB34281369DC0059A6C6 /* LaunchScreen.storyboard in Resources */,
 				94993CE026B38E70002E3BCA /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +154,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		9433FB36281369DC0059A6C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9433FB35281369DC0059A6C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		94993CE526B38E70002E3BCA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZombieConga/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZombieConga/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
